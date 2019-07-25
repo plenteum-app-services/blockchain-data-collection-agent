@@ -44,6 +44,7 @@ CREATE TABLE `transaction_outputs` (
 CREATE TABLE `transactions` (
   `txnHash` varchar(64) NOT NULL,
   `blockHash` varchar(64) NOT NULL,
+  `dataHash` varchar(64),
   `version` int(10) unsigned NOT NULL DEFAULT 1,
   `mixin` int(10) unsigned NOT NULL,
   `timestamp` bigint(20) unsigned NOT NULL,
@@ -51,6 +52,7 @@ CREATE TABLE `transactions` (
   `unlockTime` bigint(20) unsigned NOT NULL,
   `publicKey` varchar(64) NOT NULL,
   `fee` bigint(20) unsigned NOT NULL,
+  `dust` bigint(20) unsigned,
   `size` int(10) unsigned NOT NULL,
   `nonce` text DEFAULT NULL,
   `extra` blob DEFAULT NULL,
