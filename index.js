@@ -12,7 +12,7 @@ const util = require('util')
 
 /* Load in our environment variables */
 const env = {
-    enableDebugging: !!((typeof process.env.PLEAPPS_DEBUG !== 'undefined' && (process.env.PLEAPPS_DEBUG.toUpperCase() === 'ON' || parseInt(process.env.PLEAPPS_DEBUG) === 1))),
+  enableDebugging: !!((typeof process.env.PLEAPPS_DEBUG !== 'undefined' && (process.env.PLEAPPS_DEBUG.toUpperCase() === 'ON' || parseInt(process.env.PLEAPPS_DEBUG) === 1))),
   mysql: {
     host: process.env.MYSQL_HOST || 'localhost',
     port: process.env.MYSQL_PORT || 3306,
