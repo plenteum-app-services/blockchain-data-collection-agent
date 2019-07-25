@@ -29,6 +29,7 @@
   "homepage": "https://github.com/plenteum-app-services/blockchain-data-collection-agent#readme",
   "dependencies": {
     "big-integer": "^1.6.43",
+    "dotenv": "^8.0.0",
     "mysql": "^2.16.0",
     "plenteum-rpc": "^1.0.3"
   },
