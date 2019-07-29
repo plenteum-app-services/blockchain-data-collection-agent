@@ -1,6 +1,6 @@
 {
   "name": "plenteum-app-services-bdca",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Plenteum App Services: Blockchain Data Collection Agent",
   "main": "index.js",
   "scripts": {
