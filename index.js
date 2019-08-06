@@ -24,7 +24,7 @@ const env = {
   node: {
     host: process.env.NODE_HOST || 'localhost',
     port: process.env.NODE_PORT || 44016
-  }
+  },
   storeRawTransactionExtra: process.env.STORE_RAW_TRANSACTION_EXTRA || false
 }
 
